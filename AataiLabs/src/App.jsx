@@ -6,6 +6,7 @@ import AboutUs from "../components/AboutUs/aboutus";
 import Footer from "../components/Footer/footer";
 import Box from "../components/QualityAssured/quality";
 
+
 const App = () => {
   return (
     <div className="min-h-screen bg-[#edeae5]">
@@ -19,9 +20,10 @@ const App = () => {
       {/* //Preview Mode */}
       <Box/>
       {/* close */}
-      <div className="ml-29">
+      <div className="ml-29 mt-14">
         <AboutUs />
       </div>
+      
       
       <div>
         <Footer/>
