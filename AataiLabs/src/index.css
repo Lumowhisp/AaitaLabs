@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .font-orbitron {
+    font-family: "Orbitron", system-ui, sans-serif;
+  }
+
+  .font-bigshoulders {
+    font-family: "Big Shoulders Inline", sans-serif;
+  }
+
+  .font-saira {
+    font-family: "Saira Stencil One", sans-serif;
+  }
+
+  .font-rajdhani {
+    font-family: "Rajdhani", sans-serif;
+  }
+}
